@@ -1,6 +1,9 @@
 // convention to have the library referenced called the same as the variable used for it; 
 let express = require('express');
 
+const fileuploadMiddleWare = require("express-fileupload");
+
+
 // when creating your own port number, go with anything above 1000; under 1000 is reserved by other things on your computer
 const portNumber =4200;
 const app = express();
@@ -9,7 +12,6 @@ const app = express();
 //By default, the get response gives a request(URL) and response(what is written back to the client)
 //app.get is a specific case of app.use;
 app.get('/', requestHandler);
-
 
 // ordering really matters here, it *needs* to be before the app.use(express.static) request. Because if everything is made public already, 
 // then the request to errorRoute will not go through
@@ -26,6 +28,11 @@ app.use('/fruit',fruitRoutes);
 //specify that if client writes only "banana" (and not banana.html), they will be redirected to the banana.html page;
 app.use('/banana',bananaRoute);
 
+//important to be after
+app.use('/passingTheVars',handleGetVars);
+
+app.use(fileuploadMiddleWare());
+app.use('/dataUpload',handlePostedData);
 
 
 function requestHandler(request,response){
@@ -64,7 +71,40 @@ function vegRoutes(req, res, next){
     res.send(error.message);
 }
 
- 
+function handleGetVars(request,response,next){
+  console.log(request.url);
+  console.log(request.query);
+  response.send("GOT IT! THANKS!");
+}
+
+function handlePostedData(request,response){
+  console.log(request.body); //body of packet
+  console.log(request.files); //request
+
+  //request file from file upload
+if(!request.files)
+{
+    response.send("File was not found");
+    return;
+}
+// using the name attributes of the form fields ...
+console.log("the color chosen:: "+request.body.color);
+  console.log("the favorite city chosen:: "+request.body.city);
+
+// here is the field name of the form
+let  temp_file = request.files.imageF;
+
+ let imagePath  = __dirname + '/public/images/'+request.files.imageF.name;
+// Use the mv() method to place the file somewhere on your server
+temp_file.mv(imagePath, function(err) {
+if (err)
+    return response.status(500).send(err);
+    response.send('File uploaded!');
+ });
+
+}
+
+
 // listen is a method from the express library, listens forever until the program fully stops
 app.listen(portNumber, function () {
     console.log("Server is running on port "+portNumber);

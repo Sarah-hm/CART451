@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> SAMPLE CLIENT WebSockets</title>
+  <link rel="stylesheet" type="text/css" href="css/ws-style.css">
+  <script src="js/ws-client.js"></script>
+</head>
+
+<body>
+  <h1> SAMPLE CLIENT WebSockets</h1>
+  <h2>My ID:: <span id="willPut"></span></h2>
+  <hr>
+  <div>
+    <ul class="options-text">
+      <li class="sendItem" data-send="A"> SEND A AS TEXT </li>
+      <li class="sendItem" data-send="B"> SEND B AS TEXT </li>
+      <li class="sendItem" data-send="C"> SEND C AS TEXT</li>
+    </ul>
+
+    <ul class="options-json">
+      <li class="sendItemJ" data-send="message Monday"> SEND A AS JSON </li>
+      <li class="sendItemJ" data-send="message Tuesday"> SEND B J AS JSON </li>
+      <li class="sendItemJ" data-send="message Wednesday"> SEND C AS JSON </li>
+    </ul>
+
+    <p class="options-binary">
+      <label for="testfile">Send a file:</label>
+      <input type="file" id="testfile" name="testfile">
+    </p>
+
+
+
+    <hr>
+    <p id="response"> RESPONSE LINE </p>
+  </div>
+
+</body>
+
+</html>
