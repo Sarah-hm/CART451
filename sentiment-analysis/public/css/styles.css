@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+  margin-left:35%;
+  margin-top:3vh;
+  color:#8f246b;
+}
+
+
+#parentContainer{
+  width:100%;
+  background: #eeeeee;
+  margin-top:2%;
+  padding:20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchCrit{
+  background:#b82e8a;
+  border: 1px solid  #ebadd6;
+  width:40%;
+  padding:1%;
+  height:min-content;
+}
+.searchCrit p {
+  color:#ffffff;
+  font-size:18px;
+}
+
+.resCrit p {
+  color:#ffffff;
+  font-size:18px;
+}
+.resCrit{
+  background:#8f246b;
+  padding:1%;
+  border: 1px solid  #ebadd6;
+  width:40%;
+  margin-left:2%;
+}
+#resultsContainer{
+  background:#ebebfa;
+  opacity:.5;
+  padding:1%;
+}
+
+
+input[type='text']{
+   display:block;
+   width:80%;
+   margin-bottom:10px;
+   font-size:12px;
+ }
+
+
+ input[type='button']{
+ font-size:12px;
+ }
+
+
+ /* for res page */
+ #parentContainerRes{
+   margin-left:15%;
+   background:#b82e8a;
+  margin-right:15%;
+
+ }
+
+ .searchCritRange{
+   background:rgba(0,0,0,0.5);
+   padding:5px;
+   color:white;
+   padding-left:15%;
+ }
+
+  .resCritRes{
+   padding-left:15%;
+
+ }
+ #resultsContainerPos{
+   background:#ebebfa;
+   opacity:.5;
+   width:85%;
+   padding:1%;
+   border-bottom: 15px solid  #b82e8a;
+ }
+
+ #getResPos{
+   display:inline-block;
+   margin-left:50px;
+
+ }
+
+ input[type='number']{
+   display:inline-block;
+   margin-left:5px;
+ }

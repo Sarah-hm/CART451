@@ -1,0 +1,3 @@
+this is my third test string written at Tue Sep 20 2022 20:23:55 GMT-0400 (Eastern Daylight Saving Time)to ./myFiles/fileA.txt
+more text on second line
+Tue Sep 20 2022 20:23:55 GMT-0400 (Eastern Daylight Saving Time) Text copied and appended  to ./myFiles/fileA.txt
