@@ -13,28 +13,29 @@ window.onload = function () {
 
             // console.log(response);
 
-          
+            let window = document.querySelector('.window');
+            let width = window.offsetWidth;
+            let height = window.offsetHeight;
 
+            console.log(width, height);
             for (let i=0; i<response.length;i++){
 
-                 console.log(response[i].key, response[i].score)
+                 //console.log(response[i].key, response[i].score)
                
+                 let id = [i]
+                //  console.log(response[i].score);
+                 let textSize = (response[i].score)*60000
 
-                let div = document.createElement('div');
-                div.innerHTML = response[i].key;
-                document.body.appendChild(div);
+                 let wordXpos = Math.floor(9*(width/10) * Math.random())
+                 let wordYpos = Math.floor(9*(height/10) * Math.random())
 
-                // const box = document.createElement("div");
+                 $(".window" ).append( `<div class = "word" id = "${id}"> ${response[i].key}</div>`)
+                 
+                 $(`#${id}`).css("font-size",`${textSize}px`);
+                  $(`#${id}`).css("top",`${wordYpos}px`);
+                  $(`#${id}`).css("left",`${wordXpos}px`);
 
-                
-
-                // let word = `
-                //     <div class= "word" id=${[i]}>
-                //     <p> ${response[i].key} </p>
-                //     </div>`;
-
-                //     document.body.innerHTML = word;
-
+                 console.log(textSize);
              }
 
 
