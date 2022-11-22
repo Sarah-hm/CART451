@@ -6,6 +6,7 @@ class TFIDF{
       this.totalwords = 0;
 
       this.scores = [];
+
   }
   
   //split the text:
@@ -146,7 +147,6 @@ createTFIDFarray(){
  // run through all the words available in the dict
   for (let i = 0; i < this.keys.length; i++){
     //push words + their score in a key pair array
-    
     //console.log(this.keys[i], this.dict[this.keys[i]].tfidf);
     this.scores.push({key: this.keys[i], score: this.dict[this.keys[i]].tfidf});
   

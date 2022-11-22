@@ -1,0 +1,27 @@
+An (all-time) glow
+In this project, I am re-examining light pollution as an aesthetically and conceptually-charged
+poetic mediascape.
+Artificial light is one of the most revolutionary inventions of the late 19th and 20th centuries.
+Despite shaping life as we know it, as well as being a key component of the Anthropocene, it
+has brought about an array of psychological, ecological, and evolutionary implications for
+human, animal, and plant populations Light pollution, defined as “the inappropriate or
+excessive use of artificial light”, is raising in magnitude across the globe, and its impacts spill
+into almost every ecosystem. It can take many forms, including excessive brightness of the
+sky, which dissolves the night sky over urban areas; light trespass, and unnecessary light
+falling where it is not needed. Light pollution disrupts the natural patterns of wildlife,
+contributes to the increase in CO2 levels in the atmosphere, disrupts human sleep, and
+obscures the stars in our night sky.
+To begin, I was trying to formulate my dataset as my material on a macro level. Upon
+researching the different light pollution data sources, I found out about NASA’s black marble
+product, and I tried using their portal to export a set of data over a specific timeframe. The hdf5
+files were very big. I imported them into software that can analyze geospatial data, and I was
+able to visually plot them on a map, but I couldn’t figure out how to get the coordinates of the
+light pollution map as values to work with. Upon facing these obstacles, I wanted to escape the
+trap of having to acquire big data in order to make didactic sense of light pollution.
+In my process, I started projecting light from different sources on different surfaces and
+through different materials, and I realized that if I can repurpose it into an ambient atmosphere,
+in a sense I would be upcycling light as a material. It started with looking at light pollution from
+a macro point of view, and then I went to using micro-light through a prism of materials. I am
+interested in the pleasant experiences I can create out of light pollution, addressed in an
+experimental setting, and the poetic aspect of containing light pollution in an enclosure as a
+way to contain it.

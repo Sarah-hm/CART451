@@ -21,8 +21,6 @@ let tfIDF = new TFIDF();
 loadSamples();
 
 
-
-
 function clientRoute(req, res, next) {
     // console.log("hello");
 
@@ -32,7 +30,7 @@ function clientRoute(req, res, next) {
 
 function loadSamples(){
     let filenames = ['emily_Bain.txt','joelle_Collin.txt', 'manuel_Souris.txt', 'mitchell_Lanecki.txt',
-    'patrizio_McLelland.txt', 'sarah_hm.txt'];
+    'patrizio_McLelland.txt', 'sarah_hm.txt', 'sarah_am.txt','john_Mendoza.txt'];
 
     for (let i = 0; i < filenames.length; i++) {
         getTermFreq(filenames[i]);
@@ -48,7 +46,7 @@ function loadSamples(){
 
     //tfIDF.getScore();
 
-    tfIDF.createTFIDFarray();
+    //tfIDF.createTFIDFarray();
     // tempStr = tfIDF.dict[tfIDF.keys[0]].tfidf;
     //make an array with all TGIF information -> 
 
@@ -66,17 +64,15 @@ function getTermFreq(filename) {
 
 function getDataCallback(request, response){
 
+//tfIDF = new TFIDF();
 let tfidfScores = tfIDF.createTFIDFarray();
 
 //console.log(Object.values(tfidfScores))
+//console.log(tfIDF.createTFIDFarray().length)
 console.log("we get the data here")
-// console.log(tfIDF.createTFIDFarray().length)
-
-for (let i=0; i<tfidfScores.length;i++){
-   // console.log(tfidfScores[i].key);
-}
 
 response.send(tfidfScores);
+tfIDF.scores = [];
 
 }
 
