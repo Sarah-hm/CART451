@@ -1,0 +1,150 @@
+Data collection is an integral part of our
+
+lives. Products of mass consumption, like fash-
+ion, have become the results of positive feed-
+back loops created by data collected from users
+
+and regurgitated through different marketing
+channels. An interesting case study is the giant
+
+online fashion retailer Shein, which “may dis-
+close your personal information for any purpose
+
+[considered] appropriate” to produce thousands
+of new products everyday (Shein, 2022; Curry,
+2022; Dilys, 2022; Al Mallees, 2022). In short,
+
+the financially thriving model produces increas-
+ing number of objects in response to its users’
+
+personal data inputted through its quiet algo-
+rithm.
+
+An interesting notion Sara Ahmed exam-
+ines in Queer Phenomenology is how “objects
+
+are objects insofar as they are within my hori-
+zon; it is in the fact of reaching “towards them”
+
+that makes them available as objects for me”,
+
+implying that objects made available to pur-
+chase through screens are devoided of physical-
+ity until they are within our reach (Ahmed 2006,
+
+55). Indeed, Byung-Chul Han would agree that
+
+the objects we ‘reach for’ through a screen are
+mere information, non-things; that we are in
+
+fact “obsessed not with things but with infor-
+mation” and that “the present hyperinflation and
+
+proliferation of things are precisely a sign of
+an increasing indifference towards them” (Han
+2022, 2). The more data we put in this world,
+the more it is used to create more information
+we obsess over, non-things, as opposed to real
+things we no longer care for. However, one
+must remember that the medium is the message,
+
+and both are an extensions of humanity, mean-
+ing the objects we create through our algorithms
+
+are just a reflection of our own personal data;
+these non-things are not created out of thin air
+
+by algorithms that trained themselves (McLu-
+han and Fiore 2001).
+
+Many artists have recently been interest-
+ed in creative endeavors with and through AI,
+
+though fewer have been discussing the relation-
+ships between big data and its impact on our
+
+modern society.
+Sculptor Ben Snell trained a robot with
+classical sculptures from museum collections
+
+and asked it to produce its own piece inspired
+from them. He bserved two realities, the final
+
+product and its process of being; the “material-
+ity upon the impossibly immaterial [...] pro-
+cessing power” of the computer and data that
+
+generated it (Snell 2020).
+While Snell remains in controlled and
+static data environments, Mimi Onuoha, artist
+and researcher, created her Pathways project
+in the intent to question and contextualize the
+users’ “relationship with their personal data”
+(Onuoha 2015). By gathering 4 weeks worth of
+mobile data of 4 different groups, Onuoha was
+able to trace back people’s lives in their most
+intimate moments.
+In a more mischievous way of working
+with data, multimedia artist Paolo Cirio ‘stole’
+more than 10 million mugshots, blurred them,
+shuffled the data attached to them and posted
+them on his website (Cirio 2016). By indexing
+unusable data on the internet, Cirio was able
+to lower ‘mugshot websites’ user traffic from
+
+which he took the original pictures which ac-
+tively advertise and black mail people charged
+
+and/or convicted of crimes.
+In their own specific ways, these artists
+
+all contextualized and materialized the circum-
+stances the datasets they worked with came to
+
+be, though none have come close to exploring
+its impact on the way we consume fashion.
+Unsustainable production models assisted by
+AI are able to thrive in screen-based societies
+because one becomes desensitized to the sheer
+
+quantity of data and information available on-
+line, dissociating it from any form of materiali-
+ty.
+How do we speculate on how objects come to be through the algorithmic
+calculations of our own personal data?
+How can we make the process of data collection more transparent and
+material to a wider audience, especially unaware users?
+
+How can we recontextualize ‘big data’ as situated narratives of our per-
+sonal lives instead of objects of data collection?
+
+The challenge is to simplify and materialize immaterial and complex no-
+tions that are often made inaccessible to the greater population. Industrial
+
+secrecy also means greater speculations and attempts at understanding
+
+exactly what data goes into algorithmic marketing and production mod-
+els, as well as the reasoning behind its results. Further technical research
+
+on the mechanics of artificial intelligence systems will be required, as well
+
+as extensive research on Shein’s own strategies and technologies. Howev-
+er, ethnographic research will be prioritize as a process and as final data
+
+visualization method to recontextualize and render the experience more
+personal and material.
+This project embeds itself within a greater research question about the
+notions of data patterns in consumerist culture. Though the final outcome
+may take the shape of wearable and soft surface materials, the present
+goal is to form iterative and low-tech speculations of what the process of
+
+creation through AI may, or may not, look like, within the fashion indus-
+try. The outcome should be a visual and/or material rendering of recon-
+textualized online data through a personal approach. The research will
+
+start with an auto-ethnographic logbook, and using Shein as a case study,
+
+speculate on its algorithmic mechanics. Depending on the results gath-
+ered from that stage, the project may unfold in many ways, though should
+
+remain an object, or iterations of personal data collections.
