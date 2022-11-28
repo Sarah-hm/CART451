@@ -1,0 +1,95 @@
+{
+    "questions":[
+        "Where does the field of urban design predominantly exist?",
+        "What is easy to take for granted if one is an habitual driver?",
+        "What is the purpose of the installation?",
+        "What would you like to account for?",
+        "What was the object you wanted to render uncomfortable?",
+        "What are food futures possible and plausible through?",
+        "Where does the material go when we can no longer see it?", 
+        "What would we do by looking at documentation and cartography?",
+        "How can we conceptualize the absence of something",
+        "What is the problem with tire wear and tear?",
+        "What are two separate things?",
+        "What is an interesting opportunity to explore what defines an image and its associations?",
+        "What are some ways to use digital media in a critical form to bring awareness to the seperation of the body/mind within a real world?",
+        "What would i hope to bring forth a critical way in provoking?",
+        "What are some platforms that you researched?",
+        "What is an important aspect of your research to analyse?"
+    ],
+    "answers":[
+        "Academic and bureaucratic spheres",
+        "How much space is taken up by cars",
+        "To present the frustration caused by restrictive urban design",
+        "Intersections of access caused bysocioeconomic factors and/or disability",
+        "Home, community",
+        "Material properties of our diet",
+        "Where does the material go",
+        "Create anew way of presenting a view of the city",
+        "Standalone material object",
+        "No",
+        "Physical materiality and digital space",
+        "Different types of generated and found materials",
+        "If the digital world is a simulacrum of reality",
+        "Conceptual thoughtthrough interpretation of the media, material/surface and method to display the information",
+        "outube, netflix, the concordia library, the banq",
+        "Technology behind projections of the past"
+    ],
+   "Emily": {
+    "questions": [
+        "Where does the field of urban design predominantly exist?",
+        "What is easy to take for granted if one is an habitual driver?",
+        "What is the purpose of the installation?",
+        "What would you like to account for?",
+        "What was the object you wanted to render uncomfortable?"
+    ],
+    "answers":[
+        "Academic and bureaucratic spheres",
+        "How much space is taken up by cars",
+        "To present the frustration caused by restrictive urban design",
+        "Intersections of access caused bysocioeconomic factors and/or disability",
+        "Home, community"
+    ]
+   }, 
+   "john":{
+    "questions":[
+        "What are food futures possible and plausible through?"
+    ],
+    "answers":[
+        "Material properties of our diet"
+    ]
+   },
+   "patrizioAndMitchell":{
+    "questions":[
+        "Where does the material go when we can no longer see it?", 
+        "What would we do by looking at documentation and cartography?",
+        "How can we conceptualize the absence of something",
+        "What is the problem with tire wear and tear?"
+    ], 
+    "answers":[
+        "Where does the material go",
+        "Create anew way of presenting a view of the city",
+        "Standalone material object",
+        "No"
+    ]
+   }, 
+   "ManuelandSarahs":{
+    "questions":[
+        "What are two separate things?",
+        "What is an interesting opportunity to explore what defines an image and its associations?",
+        "What are some ways to use digital media in a critical form to bring awareness to the seperation of the body/mind within a real world?",
+        "What would i hope to bring forth a critical way in provoking?",
+        "What are some platforms that you researched?",
+        "What is an important aspect of your research to analyse?"
+    ],
+    "answers":[
+        "Physical materiality and digital space",
+        "Different types of generated and found materials",
+        "If the digital world is a simulacrum of reality",
+        "Conceptual thoughtthrough interpretation of the media, material/surface and method to display the information",
+        "outube, netflix, the concordia library, the banq",
+        "Technology behind projections of the past"
+    ]
+   }
+   
+  }

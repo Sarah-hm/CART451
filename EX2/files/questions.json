@@ -1,0 +1,49 @@
+{
+   "Emily": {
+    "questions": [
+        "Where does the field of urban design predominantly exist?",
+        "What is easy to take for granted if one is an habitual driver?",
+        "What is the purpose of the installation?",
+        "What would you like to account for?",
+        "What was the object you wanted to render uncomfortable?"
+    ],
+    "answers":[
+        "Academic and bureaucratic spheres",
+        "How much space is taken up by cars",
+        "To present the frustration caused by restrictive urban design",
+        "Intersections of access caused bysocioeconomic factors and/or disability",
+        "Home, community"
+    ]
+   }, 
+   "john":{
+    "questions":[
+        "What are food futures possible and plausible through?"
+    ],
+    "answers":[
+        "Material properties of our diet"
+    ]
+   },
+   "patrizioAndMitchell":{
+    "questions":[
+        "Where does the material go when we can no longer see it?", 
+        "What would we do by looking at documentation and cartography?",
+        "How can we conceptualize the absence of something",
+        "What is the problem with tire wear and tear?"
+    ], 
+    "answers":[
+        "Where does the material go",
+        "Create anew way of presenting a view of the city",
+        "Standalone material object",
+        "No"
+    ]
+   }, 
+   "ManuelandSarahs":{
+    "questions":[
+        ""
+    ],
+    "answers":[
+        ""
+    ]
+   }
+   
+  }
